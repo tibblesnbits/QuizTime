@@ -3,7 +3,6 @@
 An interactive terminal-based multiple choice quiz I made while studying for cert exams.
 Built in Python. Questions stored in a simple JSON file, easy to add your own.
 
-~*~*~*~
 
 ## Features
 
@@ -15,22 +14,23 @@ Built in Python. Questions stored in a simple JSON file, easy to add your own.
 ~ Shuffle mode to randomize question order
 ~ Easy to add your own questions via JSON or plain text converter
 
-~*~*~*~
 
 ## Files
 
  `quiztime.py`		  | Main quiz script 
+ 
  `convert.py` 		  | Convert questions to .json 
+ 
  `raw_questions.txt`| Paste questions here for convert.py
+ 
  `questions.json`   | Question bank 
 
-~*~*~*~
 
 ## Requirements
 
 Python 3.6+
 
-~*~*~*~
+
 
 ## Usage
 
@@ -41,9 +41,9 @@ python quiztime.py
 python quiztime.py --shuffle
 
 **Use a different question file:**
-python quiztime.py --file myquestions.json
+python quiztime.py --file myquestions.json (uses questions.json by default)
 
-~*~*~*~
+
 
 ## Adding Your Own Questions
 
@@ -62,11 +62,11 @@ The `answer` field must match one of the strings in `options` exactly.
 The `explanation` field is optional.
 
 
-~*~*~*~
+
 
 ## License
 
 MIT, go nuts
 
-~*~*~*~
+
 
